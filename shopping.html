@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The F's Pet Heaven : Shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/ico/new log.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <script src="shopping.js"></script>
+</head>
+
+<body>
+        <!--header -->
+        <section>
+
+            <div class="header">
+                <!--Slogan-->
+                <div class="slogan">
+                    <p>Create a happy and healthy <span class="heaven">Pet's Heaven</span> </p>
+                </div>
+            </div>
+    
+        </section>
+       <!--navigation-->
+        <section class="navigation">
+    
+            <div class="icon">
+                <a href=""><img src="img/ico/fb ico.png" alt="facebook" width="30px" height="auto"></a>
+                <a href=""><img src="img/ico/instagram-Logo-PNG-Transparent-Background-download.png" alt="instagram" width="30px"></a>
+            </div>
+    
+            <div class="navbaritem">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home Page</a></li>
+                        <li><a href="item.html">Items Page</a></li>
+                        <li><a href="shopping.html">Shopping</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </nav>
+    
+            </div>
+        </section>
+    
+        <section class="headerimagecontainer">
+                 <!--Header image-->   
+            <div class="headerimage">
+                <img src="img/header image.jpg" alt="header image">
+    
+                <div class="logo">
+                    <a href=""><img src="img/ico/new log.png" alt="logo"></a>
+                </div>
+            </div>
+    
+        </section>
+
+        <p><br></p>
+
+    <!--Online shopping-->
+    <div class="online_shop">
+        
+        <!--Online shopping products-->
+        <div class="online_shop_products">
+            <!--Product 1-->
+            <div class="product">
+                <center>
+                    <h5>Dogs' Products</h5>
+
+                    <p>Choose Your Option...</p><br>
+                    <cite id="dogprice">$...</cite><br>
+
+                    <div style="text-align: justify;">
+                        <form action="" id="dogtotal">
+
+                            <br>
+                            <label><input type="checkbox" name="dogpro" >1. Dog's Collar ($25.00)</label>
+                            <br><br>
+                            <label><input type="checkbox" name="dogpro" >2. Dog's Booties ($35.00)</label>
+                            <br><br>
+                            <label><input type="checkbox" name="dogpro" >3. Dog's Bed ($50.00)</label>
+                            <br><br>
+                            <label><input type="checkbox" name="dogpro" >4. Dog's CarryBag ($45.00)</label>
+                            <br><br>
+                            <label><input type="checkbox" name="dogpro" >5. Dog's Toy ($15.00)</label>
+                            <br><br>
+                            <label><input type="checkbox" name="dogpro" >6. Dog's FoodBowl ($20.00)</label>
+                            <br><br>
+                        </form>
+                        <button type="submit" id="submit" onclick="dogtotal()">Add To Basket</button>
+                    </div>
+
+                </center>
+            </div>
+
+            <!--Product 2-->
+            <div class="product">
+                <center>
+                    <h5>Cats' products</h5>
+
+                    <p>Choose Your Option...</p><br>
+                    <cite id="catprice">$...</cite><br>
+
+                    <div style="text-align: justify;">
+                        <form action="" id="cattotal">
+                            <br>
+
+                            <label><input type="checkbox" name="catpro" >1. Cat's Collar ($25.00)</label>
+                            <br><br>
+                            <label><input type="checkbox" name="catpro" >2. Cat's FoodBowl ($20.00)</label>
+                            <br><br>
+                            <label><input type="checkbox" name="catpro" >3. Cat's Gloves ($20.00)</label>
+                            <br><br>
+                            <label><input type="checkbox" name="catpro" >4. Cat's PlayTunnel ($60.00)</label>
+                            <br><br>
+                            <label><input type="checkbox" name="catpro" >5. Cat's Bed ($50.00)</label>
+                            <br><br>
+                            <label><input type="checkbox" name="catpro" >6. Cat's CarryBag ($40.00)</label>
+                            <br><br>
+                        </form>
+                        <button type="submit" id="submit" onclick="cattotal()">Add To Basket</button>
+                    </div>
+                    
+                </center>
+            </div>
+
+            <!--Product 3-->
+            <div class="product">
+                <center>
+                    <h5>Birds' products</h5>
+
+                    <p>Choose Your Option...</p><br>
+                    <cite id="birdprice">$...</cite><br>
+
+                    <div style="text-align: justify;">
+                        <form action="" id="birdtotal">
+                            <br>
+                            <label><input type="checkbox" name="birdpro" >1. Bird's Cage ($65.00)</label>
+                                
+                            <br><br>
+                            <label><input type="checkbox" name="birdpro" >2. Bird's CarryBag ($40.00)</label>
+                            
+                            <br><br>
+                            <label><input type="checkbox" name="birdpro" >3. Bird's FeedBox ($25.00)</label>
+                            
+                            <br><br>
+                            <label><input type="checkbox" name="birdpro" >4. Bird's WinterNest ($30.00)</label>
+                            
+                            <br><br>
+                            <label><input type="checkbox" name="birdpro" >5. Bird's PerchStand ($10.00)</label>
+                            
+                            <br><br>
+                            <label><input type="checkbox" name="birdpro" >6. Bird's CageToy ($10.00)</label>
+                            
+                            <br><br>
+                        </form>
+                        <button type="submit" id="submit" onclick="birdtotal()">Add To Basket</button>
+                    </div>
+                </center>
+            </div>
+        </div>
+
+        <!--Basket-->
+        <div class="basket">
+
+            <!--Basket items-->
+            <div class="basket_items">
+                <h4>BASKET</h4>
+
+                
+                    <div class="basket_table">
+                        <!--Table-->
+                        <table>
+
+                            <form action="" id="basketform">
+                            <caption>Choose your payment method</caption>
+                            <tr>
+                                <!--Visa-->
+                                <th>
+                                    <input type="radio" name="%" id="#">
+                                    <label for="#" class="td1">Visa</label>
+                                </th>
+                
+                                <!--Mastercard-->
+                                <th>
+                                    <input type="radio" name="%" id="##">
+                                    <label for="##" class="td2">MasterCard</label>
+                                </th>
+                            </tr>
+                
+                            <tr>
+                                <!--Name on the card-->
+                                <td>
+                                    <label for="###">Name on the Card</label>
+                                </td>
+                
+                                <!--inputs-->
+                                <td id="card_names">
+                                    <input type="text" name="" id="###" pattern="[A-Za-z]" required>
+                                    <input type="text" name="" id="###" pattern="[A-Za-z]" required>
+                                    <input type="text" name="" id="###" pattern="[A-Za-z]" required>
+                                </td>    
+                            </tr>
+                            
+                            <tr>
+                                <!--Expire Date-->
+                                <td>
+                                    <label for="####">Expire Date</label>
+                                </td>
+                
+                                <td id="expire_date">
+                                    <!--Selection of days-->
+                                    <select name="" id="####" required>
+                                        <option value="">01</option>
+                                        <option value="">02</option>
+                                        <option value="">03</option>
+                                        <option value="">04</option>
+                                        <option value="">05</option>
+                                        <option value="">06</option>
+                                        <option value="">07</option>
+                                        <option value="">08</option>
+                                        <option value="">09</option>
+                                        <option value="">10</option>
+                                        <option value="">11</option>
+                                        <option value="">12</option>
+                                    </select>
+                
+                                    <!--Selection of years-->
+                                    <select name="" id="####" required>
+                                        <option value="">2023</option>
+                                        <option value="">2024</option>
+                                        <option value="">2025</option>
+                                        <option value="">2026</option>
+                                        <option value="">2027</option>
+                                        <option value="">2028</option>
+                                        <option value="">2029</option>
+                                        <option value="">2030</option>
+                                        <option value="">2031</option>
+                                        <option value="">2032</option>
+                                        <option value="">2033</option>
+                                    </select>
+                                </td>
+                            </tr>
+                
+                            <tr>
+                                <!--CVV-->
+                                <td>
+                                    <label for="#####">CVV</label>
+                                </td>
+                                <!--Value of CVV-->
+                                <td id="cvv">
+                                    <input type="password" name="" id="#####" pattern="[0-9]{3}" size="3" required>
+                                </td>
+                            </tr>
+                             </form>
+                            <tr>
+                                <!--Empty space-->
+                                <td></td>
+                
+                                <!--Items && Total price-->
+                                <td id="items">
+                                    <!--Items-->
+                                    <span>Items</span>
+                                    <!--Total price-->
+                                    <span>Total</span>
+                                </td>
+                            </tr>
+                
+                            <tr>
+                                <!--Empty space-->
+                                <td></td>
+                
+                                <!--Value of Items && Total price-->
+                                <td id="items_prices">
+                                    <!--Items' numbers-->
+                                    <span id="@">×0</span>
+                                    <!--Total price value-->
+                                    <span id="$">$0.00</span>
+                                </td>
+                            </tr>
+                
+                            <tr>
+                                <!--Empty space-->
+                                <td></td>
+                
+                                <!--Buttons-->
+                                <td class="tr_w_border">
+                                    <!--<a href="">Empty Cart</a>
+                                    <a href="">Checkout</a>-->
+                                    <button type="submit" id="emptycart" onclick="emptycart()">Empty Cart</button>
+                                    <button type="submit" id="checkout" onclick="checkout()">CheckOut</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>    
+            </div>
+        </div>
+
+        <div class="empty"></div>
+    </div>
+    <!--Footer--> 
+    <footer class="footer">
+
+        <div class="footer-content">
+            <div class="footer-content01">
+                <a href="index.html"><img src="img/ico/new log.png" alt="logo"></a> 
+                <p><i></i>+90123-456-789</p>
+                <p><i></i><span class="gmail"><a href="mailto:fpetheaven@gmail.com">fpetheaven@gmail.com</a></span></p> <!--Mail-->
+                <p><i></i>North-Cyprus, Nicosia/lefkoşa</p>
+            </div>
+
+            <div class="footer-content02">
+                <a id="service"><h3>Products</h3></a><br>
+                <a href="item.html#dogpro">Dog's products</a><br>
+                <a href="item.html#catpro">Cat's products</a><br>
+                <a href="item.html#birdpro">Pet Bird's products</a><br>
+            </div>
+
+            <div class="footer-content03">
+                <h3>OPENING HOURS</h3>
+                <p>Monday to Friday     8:30-17:30</p>
+                <p>Saturday <span class="saturday">8:30-12:30</span></p>
+                <p>Sunday <span class="sunday">12:30-17:30</span></p>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!--End of Footer-->
+</body>
+</html>

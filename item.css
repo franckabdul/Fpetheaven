@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   box-sizing: border-box;
+}
+/*Header*/
+.header{
+    width: 100%;
+    height: auto;
+}
+.header .slogan{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+.slogan p{
+    text-align: center;
+    height: 40px;
+    color: rgb(0, 0, 0, 0.6);
+    padding: 10px 0px;
+    background-color: rgb(246, 246, 248);
+}
+.slogan .heaven{
+    color: rgb(182, 149, 135);
+    font-weight: bold;
+}
+/*Navigation*/
+.navigation{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.navigation .icon{
+    width: 5%;
+    height: auto;
+    float: left;
+    margin-left: 30px;
+    margin-top: -30px;    
+}
+.icon span:first-child{
+    margin-right: 20px;
+    font-size: larger;    
+}
+.icon .fa-facebook-f{
+    color: rgb(182, 149, 135);
+    transition: 0.5s;
+}
+.icon .fa-facebook-f:hover{
+    color:blue;
+    cursor: pointer;
+}
+.icon .fa-instagram{
+    color: rgb(182, 149, 135);
+    transition: 0.5s;
+}
+.icon .fa-instagram:hover{
+    color: rgb(138,58,185);
+    cursor: pointer;
+}
+.logo{
+    width: 1250px;
+    height: 60px;
+}
+.logo img{
+    height:100%;
+    width:100%;
+}
+.navigation .navbaritem{
+    height: auto;
+    width: 95%;
+    
+}
+.navbaritem nav{
+    
+}
+nav ul{
+    list-style:none ;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+nav ul a{
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.6);
+    transition: 0.5s;
+}
+ul a:hover{
+    color: rgb(182, 149, 135);
+}
+
+ul li{
+    margin-right:50px ;
+    font-size: 20px;
+}
+/*Header image*/
+.headerimagecontainer{
+    width: 100%;
+    height: auto;
+    margin-bottom: 700px;
+}
+.headerimagecontainer .headerimage{
+    width: 100%;
+    height:auto;
+    margin-left: 0;  
+    position: relative; 
+    z-index: 2;
+}
+.headerimage img{
+    width: 100%;
+    height: 700px;
+    z-index: 2;
+    position: absolute;
+}
+.headerimagecontainer .logo{
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+/*quickAccessMenu*/
+div.productslink{
+    width: 100%;
+    height: 100%; 
+    float: left; 
+    text-align: center;
+}
+
+h3#itemspagenavi{
+    display: inline-block;
+    background-color: rgb(182, 149, 135); 
+    border:  3px solid rgb(182, 149, 135) ;
+    border-radius: 25px; 
+    margin: 5px;
+    padding: 5px;
+     color: rgb(0, 0, 0, 0.6);
+}
+a#itemspagenavi{
+    text-decoration: none; 
+    color: rgb(0, 0, 0, 0.6);
+    display: inline-block; 
+    border:  3px solid rgb(182, 149, 135) ;
+    border-radius: 25px; 
+    margin: 5px;
+    padding: 5px; 
+}
+
+h2#dogpro{
+    display: inline-block;
+    background-color: rgb(182, 149, 135); 
+    border:  3px solid rgb(182, 149, 135) ;
+    border-radius: 25px; 
+    margin: 5px;padding: 5px; 
+    color: rgb(0, 0, 0, 0.6);
+}
+
+h2#catpro{
+    display: inline-block;
+    background-color: rgb(182, 149, 135); 
+    border:  3px solid rgb(182, 149, 135) ;
+    border-radius: 25px; 
+    margin: 5px;padding: 5px; 
+    color: rgb(0, 0, 0, 0.6);
+}
+
+h2#birdpro{
+    display: inline-block;
+    background-color: rgb(182, 149, 135);
+     border:  3px solid rgb(182, 149, 135) ;
+     border-radius: 25px; 
+     margin: 5px;
+     padding: 5px; 
+     color: rgb(0, 0, 0, 0.6);
+}
+.productslink a:hover{
+    background-color: rgb(182, 149, 135);
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+}
+/*Articles*/
+.article{
+    width: 100%;
+    height: 2500px;
+    position: relative;
+    top: 830px;
+    z-index: 2;
+}
+/*Animal classification*/
+.ourservices{
+    text-align: center;
+    border-top: 1px , rgb(0, 0, 0);
+    margin: 80px 30px 30px 30px;
+    
+}
+.ourservices h2{
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+    margin-top: 50px;
+}
+.animal{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.animal .animalclass{
+    width: 500px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.animal .animalclass:first-child{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.animal .animalclass:last-child{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.animalclass .animalitems{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.animalitems img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 1;
+}
+.animalitems img:hover{
+    opacity: 0.9;
+}
+.animalclass a:last-child{
+    position: inherit;
+    z-index: 3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: 80%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 40px;
+    margin: 0 170px;
+    border-radius: 50px;
+    transition: 0.6s;
+}
+.animalclass a:last-child:hover{
+    color: white;
+    background-color: rgb(182, 149, 135);
+}
+.animalclass .animaltext{
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+}
+.animaltext p{
+    line-height: 25px;
+    text-indent: 30px;
+}
+/*FOOTER*/
+.footer{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: rgb(182, 149, 135);
+}
+.footer-content{
+    width: 90%;
+    height: auto;
+    margin:0 10% 0 10%;
+    padding: 60px 0 60px 0;
+    display: flex;
+    justify-content: auto;
+}
+.footer-content a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.footer-content h3{
+    transition: 0.5s;
+}
+.footer-content h3:hover{
+    text-decoration: underline;
+    color: white;
+}
+.footer-content a:hover{
+    color: lightslategray;
+}
+
+/*Footer content01*/
+.footer-content01{
+    width: 25%;
+    margin-right: 10%;
+    border-right: 1px solid white;
+}
+.footer-content01 img{
+    width: auto;
+    height: 90px;margin-top: -50px;
+
+}
+.footer-content01 p{
+    color: white;
+    font-weight: bold;
+}
+.fa-phone-flip, .fa-envelope-open-text{
+    float: left;
+    padding-right:30px;
+}
+.fa-location-dot{
+    padding-right: 30px;
+}
+.fa-clock{
+    padding-right: 30px;
+}
+
+/*Footer content02*/
+.footer-content02{
+    width: 22.5%;
+    margin-right: 10%;
+    border-right: 1px solid white;
+}
+.f01{
+    padding-bottom: 50px;
+}
+
+/*Footer content03*/
+.footer-content03{
+    width: 22.5%;
+}
+.footer-content03 h3{
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.footer-content03 p{
+    color: white;
+    font-weight: bold;
+    cursor: pointer; 
+    transition: 0.5s;   
+}
+.footer-content03 p:hover{
+    color: lightslategray;
+}
+.saturday{
+    padding-left: 70px;
+}
+.sunday{
+    padding-left: 81px;
+}
